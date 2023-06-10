@@ -63,19 +63,19 @@
 # weather_f = {Days: value*1.8+32 for (Days, value) in weather_c.items()}
 # print(weather_f)
 
-student_dict = {
-    "student": ["Angela", "James", "Lily"],
-    "score": [56, 76, 98]
-}
+# student_dict = {
+#     "student": ["Angela", "James", "Lily"],
+#     "score": [56, 76, 98]
+# }
 # Simple looping through dictionaries
 # for (key, value) in student_dict.items():
 #     print(key)
 #     print(value)
 
 # using panda
-import pandas
+# import pandas
 
-student_data_frame = pandas.DataFrame(student_dict)
+# student_data_frame = pandas.DataFrame(student_dict)
 # print(student_data_frame)
 
 # loop through a data frame
